@@ -1,0 +1,541 @@
+@charset "utf-8";
+/* CSS Document */
+
+   /*Fonts*/
+@font-face{
+	font-family: "AceSans";
+	src: url(../font/AceSans-Demo.otf);}
+
+
+/*Loading screen*/
+
+.loading{
+	height:100vh;
+	width:100vw;
+	background-color: aliceblue;
+	position: absolute;
+	display:flex;
+	align-content:center;
+	z-index:30;
+	}
+.loading h2{
+	text-align: center;
+	margin:auto;
+	position: relative;
+	transform: translate(-60%,0%);}
+.holder{
+	margin:auto;
+	position: relative;
+	transform: translate(60%,0%);
+	background:url(../gif/dots-loader-view.gif)no-repeat center;
+	background-size:cover;
+	width:20%;
+	height:30%;}
+
+
+
+/*Loading screen END*/
+
+/*body details*/
+#wrapper{
+	width:100%;
+	margin:0;
+	padding:0;
+	font-family:"AceSans";
+	letter-spacing: 8px;
+	}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-color:#FFFFFF;
+	font-family:"source-semi";}
+
+#hero{
+	z-index: 0;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100vh;
+	background:url(../img/clouds.jpg)no-repeat center fixed;
+	background-size:cover;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;}
+.herobox1{
+	padding:0;
+	margin:0 0 5% 0;
+	justify-content: center;
+	width:100%;
+	height:auto;
+	float:left;}
+
+.textbox{
+	padding:0;
+	margin:0;
+	justify-content: center;
+	width:100%;
+	height:auto;
+	float:left;
+}
+
+
+#hero h1{
+	text-align: center;
+	padding:0;
+	margin:0;
+	color:grey;
+	font-size: 50px;}
+#hero h2{
+	text-align: center;
+	padding:0;
+	margin:0;
+	color:grey;
+	font-size: 30px;}
+.herobox3 h2{
+	text-align: center;
+	padding:0;
+	margin:0;
+	color:grey;
+	font-size: 35px;}
+.herobox4 h2{
+	text-align: center;
+	padding:0;
+	margin:0;
+	color:grey;
+	font-size: 35px;}
+
+@-webkit-keyframes arrow-jump {
+  0%   { opacity: 0;}
+  100% { opacity: 1; 
+    -webkit-transform: translateY(50px);
+    -moz-transform: translateY(50px);
+    -o-transform: translateY(50px);
+    transform: translateY(50px);}}
+
+.pushme:hover {
+	background:url(../img/arrow-hover.png) no-repeat;
+	background-size:contain;
+	-webkit-animation: arrow-jump 3s infinite;
+  	-moz-animation:    arrow-jump 3s infinite;
+  	-o-animation:      arrow-jump 3s infinite;
+  	animation:         arrow-jump 3s infinite;}
+.pushme1:hover {
+	background:url(../img/arrow-hover.png) no-repeat;
+	background-size:contain;
+	-webkit-animation: arrow-jump 3s infinite;
+  	-moz-animation:    arrow-jump 3s infinite;
+  	-o-animation:      arrow-jump 3s infinite;
+  	animation:         arrow-jump 3s infinite;}
+
+.pushme{
+	display:block;
+	padding:0;
+	margin:20% 0 0 0;
+	width:80px;
+	height:100px;
+	background:url(../img/arrow.png) no-repeat;
+	background-size:contain;
+	-webkit-animation: arrow-jump 3s infinite;
+  	-moz-animation:    arrow-jump 3s infinite;
+  	-o-animation:      arrow-jump 3s infinite;
+  	animation:         arrow-jump 3s infinite;}
+
+#hero2{
+	height:100vh;
+	width:100vw;
+	margin:0;
+	padding:0;
+	background:url(../img/../img/clouds2.jpg)no-repeat center fixed;
+	background-size:cover;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;}
+
+.sec-01{
+	height:27.5%;
+	width:100%;
+}
+.sec-1{
+	display: flex;
+ 	justify-content: center;
+ 	flex-direction: column;
+ 	text-align: center;
+	margin:auto;
+	width:70%;
+	height:15%;
+	float:left;
+	background-color:rgba(199,199,199,0.8)}
+.sec-2{
+	display: flex;
+ 	justify-content: center;
+ 	flex-direction: column;
+ 	text-align: center;
+	width:70%;
+	height:15%;
+	background-color: rgba(199,199,199,0.8);
+	margin:auto;
+	float:left;}
+.hideme{
+	opacity:0;}
+.sec-3{
+	width:70%;
+	height:15%;
+	display: flex;
+ 	justify-content: center;
+ 	flex-direction: column;
+ 	text-align: center;
+	margin:auto;
+	background-color:rgba(199,199,199,0.8);
+	}
+.sec-4{
+	width:80%;
+	height:27.2%;
+	align-items: center;
+	text-align: center;
+	margin:auto;
+	background-color: none;
+	}
+#hero2 h2{
+	font-size: 35px;
+	color:grey;
+}
+.pushme1{
+	display:block;
+	padding:0;
+	margin:auto;
+	padding-bottom:100px;
+	width:80px;
+	height:100px;
+	background:url(../img/arrow.png) no-repeat;
+	background-size:contain;
+	-webkit-animation: arrow-jump 3s infinite;
+  	-moz-animation:    arrow-jump 3s infinite;
+  	-o-animation:      arrow-jump 3s infinite;
+  	animation:         arrow-jump 3s infinite;}
+#hero3{
+	height:100vh;
+	width:100vw;
+	margin:0;
+	padding:0;
+	background:url(../img/../img/clouds3.jpg)no-repeat center fixed;
+	background-size:cover;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;}
+
+#hero3 h2{
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	color: grey;
+}
+
+.holder1, .holder3{
+	height:25%;
+	width:100%;
+	background-color:none;
+}
+.holder2{
+	height:50%;
+	width:100%;
+	background-color: none;
+}
+
+.sec-holder{
+	height:100%;
+	width:90%;
+	margin:auto;
+	display:flex;
+	justify-content: space-around;
+	background-color: none;
+	}
+
+.sec-holder > a {
+  background-color: #f1f1f1;
+  width:30%;
+  height:100%;
+  margin: auto;}
+.site1{
+	background-image:url(../gif/mario.gif);
+	background-repeat:no-repeat;
+	background-size:100% 100%;}
+.site1:hover{
+    transform: scale(1.1);}
+.site2:hover{
+    transform: scale(1.1);}
+.site3:hover{
+    transform: scale(1.1);}
+
+
+.site1:hover .mario-text{
+   opacity: 1;
+   transition:1s}
+.site2:hover .mario-text{
+   opacity: 1;
+   transition:1s;}
+.site3:hover .mario-text{
+   opacity: 1;
+   transition:1s;}
+
+.mario-text {
+ 	justify-content: center;
+ 	text-align: center;
+	margin:auto;
+	color:#FFFFFF;
+	font-size: 20px;
+	opacity:0;}
+
+a{
+	text-decoration: none;}
+.site2{
+	background:url(../img/axa.JPG)no-repeat center;
+	background-size:cover;
+}
+.site3{
+	background:url(../img/waterworld1.JPG)no-repeat left;
+	background-size:cover;
+}
+.pushme2{
+	display:block;
+	margin:auto;
+	padding-bottom:70px;
+	width:80px;
+	height:100px;
+	background:url(../img/arrow.png) no-repeat;
+	background-size:contain;
+	-webkit-animation: arrow-jump 3s infinite;
+  	-moz-animation:    arrow-jump 3s infinite;
+  	-o-animation:      arrow-jump 3s infinite;
+  	animation:         arrow-jump 3s infinite;}
+.pushme2:hover {
+	background:url(../img/arrow-hover.png) no-repeat;
+	background-size:contain;
+	-webkit-animation: arrow-jump 3s infinite;
+  	-moz-animation:    arrow-jump 3s infinite;
+  	-o-animation:      arrow-jump 3s infinite;
+  	animation:         arrow-jump 3s infinite;}
+
+#hero4{
+	height:100vh;
+	width:100vw;
+	margin:0;
+	padding:0;
+	background:url(../img/../img/clouds2.jpg)no-repeat center fixed;
+	background-size:cover;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;}
+
+.contact1{
+	height:10%;
+	width:100%;
+	background-color: none;}
+.contact1 h2{
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	font-size:40px;
+	margin-bottom:5%;
+	color:grey;}
+.contact2{
+	height:70%;
+	width:100%;
+	display:flex;
+	flex-direction: row;
+	background-color: none;}
+.con1{
+	width:20%;
+	height:100%;
+	background-color:none;}
+.con2{
+	width:80%;
+	height:100%;
+	background-color:rgba(199,199,199,0.8);
+	text-align:center;}
+.con2 h3{
+	color:grey;
+	display:flex;
+	text-align:center;
+	}
+.con2 p{
+	color:grey;
+	display:flex;
+	text-align:left;
+	margin-left:2%;
+	font-size:20px;
+}
+.maintext{
+	font-size:30px;
+	margin-left:1%!important;
+	display: inline-block;
+  	position: relative;}
+
+
+/*effect-underline*/
+.effect-underline:after {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  border-bottom: 1px solid;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);}
+
+.effect-underline:hover:after {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);}
+
+/* effect-shine */
+.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+.loading .effect-shine{
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: shine 1s infinite;
+}
+
+
+
+@-webkit-keyframes shine {
+  from {
+    -webkit-mask-position: 150%;
+  }
+  
+  to {
+    -webkit-mask-position: -50%;
+  }
+}
+
+
+.text1{
+	display:flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: underline;}
+
+.contact3{
+	height:20%;
+	width:80%;
+	margin-left:20%;
+	background-color:rgba(199,199,199,0.8);
+	display:flex;
+	justify-content: right;
+	flex-direction: row;}
+.foot1{
+	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  	text-align: right;
+	width:60%;
+	height:100%;
+	padding-right:5%;
+	background-color: none;
+}
+.foot2{
+	width:10%;
+	height:100%;
+	background-color: none;
+	display: flex;
+	align-items: center;
+  	justify-content: center;}
+
+.fb{
+	width:80px;
+	height:80px;
+	background:url(../img/fb.png)no-repeat;
+	background-size:cover;
+	display:flex;
+  	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin:auto;}
+.fb:hover{
+    transform: scale(1.1);}
+.in{
+	width:80px;
+	height:80px;
+	background:url(../img/in.png)no-repeat;
+	background-size:cover;
+	display:flex;
+  	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin:auto;}
+.in:hover{
+    transform: scale(1.1);}
+
+.foot3{
+	width:10%;
+	height:100%;
+	background-color: none;
+	display: flex;
+	align-items: center;
+  	justify-content: center;}
+.face{
+	width:356px;
+	height:356px;
+	background:url(../img/../img/mainme.png)no-repeat;
+	background-size:cover;}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+/*Slide in effect*/
+
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 3s ease forwards;}
+.come-in:nth-child(odd) {
+  animation-duration: 1s; /* So they look staggered */}
+@keyframes come-in {
+  to { transform: translateY(0); }}
+
+
+@media (max-width: 800px){
+	.loading{display:none;}
+	.herobox1{margin-bottom:20%;}
+	#hero2 h2{font-size:21px;}
+	#hero{background:url(../img/../img/../img/cloud-mobile.jpg)no-repeat;background-size:100% 100%;}
+	#hero2{background:url(../img/../img/../img/cloud-mobile2.jpg)no-repeat;background-size:100% 100%;}
+	#hero2 h2{font-size:19px;margin-bottom:10%;}
+	#hero3{background:url(../img/../img/clouds3.jpg)no-repeat center;}
+	#hero4{background:url(../img/../img/clouds2.jpg)no-repeat center;}
+	.contact2 h3{font-size:15px;}
+	#hero4 h2{font-size:15px;}
+	.maintext{font-size:15px;}
+	.contact1{height:10%;}
+	.contact2{height:70%;display:flex;flex-direction:column;}
+	.contact3{height:20%;display:flex;flex-direction:column;width:100%;margin:0;}
+	.foot1{width:100%;padding:0;}
+	.foot1 h3 {font-size:12px;text-align:center;}
+	.foot2{width:100%;padding:0;}
+	.foot3{width:100%;padding:0;}
+	.con1{width:100%;height:30%;}
+	.con2{width:100%;height:70%;}
+	.con2 p{font-size:12px;}
+	.face{width:150px;margin:auto;height:150px;}
+	.fb{width:30px;height:30px;}
+	.in{width:30px;height:30px;}
+	.sec-holder > a{width:80%;height:100%;margin-bottom:15%;}
+	.sec-holder{width:90%;margin:auto;display:flex;flex-direction: column;}
+	.holder3{height:1%;}
+	.holder2{height:65%;}
+	
+
+}
+
